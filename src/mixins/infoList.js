@@ -31,6 +31,25 @@ export default {
             const table = await this.listApi({ page, pageSize, ...this.searchInfo })
             if (table.code == 0) {
                 this.tableData = table.data.list
+                for (var i = 0; i < this.tableData.length; i++) {
+                    if (this.tableData[i].groups != null) {
+                        if (this.tableData[i].groups.competitionItem === "1") {
+                            this.tableData[i].groups.competitionItem = "电子商务“三创”赛"
+                        } else if (this.tableData[i].groups.competitionItem === "2") {
+                            this.tableData[i].groups.competitionItem = "“互联网+”挑战赛"
+                        } else {
+                            this.tableData[i].groups.competitionItem = "全国大学生创新创业挑战赛"
+                        }
+                        continue
+                    }
+                    if (this.tableData[i].competitionItem === "1") {
+                        this.tableData[i].competitionItem = "电子商务“三创”赛"
+                    } else if (this.tableData[i].competitionItem === "2") {
+                        this.tableData[i].competitionItem = "“互联网+”挑战赛"
+                    } else {
+                        this.tableData[i].competitionItem = "全国大学生创新创业挑战赛"
+                    }
+                }
                 this.total = table.data.total
                 this.page = table.data.page
                 this.pageSize = table.data.pageSize

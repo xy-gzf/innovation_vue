@@ -98,3 +98,11 @@ export const createGroup = (data) => {
          params
      })
  }
+
+export const getMyGroups = (params) => {
+    return service({
+        url: "/group/getMyGroups",
+        method: 'get',
+        params
+    })
+}

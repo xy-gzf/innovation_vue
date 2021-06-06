@@ -2,12 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6df270d5-f78e-4e6b-a537-de10fe1baee4" name="Default Changelist" comment="group">
+      <change afterPath="$PROJECT_DIR$/src/api/participating_members.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/group/myGroup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/group.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/infoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixins/infoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/group/group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/group/group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/group/groupForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/group/groupForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/group/groupWorkflowForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/group/groupWorkflowForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -41,15 +60,48 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../git_web/vue-demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\Web\WebProjects\innovation_vue\src\view\group" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +136,19 @@
       <workItem from="1618802443180" duration="3538000" />
       <workItem from="1618889232292" duration="2825000" />
       <workItem from="1619454883399" duration="716000" />
-      <workItem from="1619583541934" duration="960000" />
+      <workItem from="1619583541934" duration="4588000" />
+      <workItem from="1620272664206" duration="2405000" />
+      <workItem from="1620357711516" duration="13434000" />
+      <workItem from="1620415401715" duration="18200000" />
+      <workItem from="1620499222753" duration="586000" />
+      <workItem from="1620787978046" duration="8299000" />
+      <workItem from="1620813710046" duration="6432000" />
+      <workItem from="1620877638131" duration="14011000" />
+      <workItem from="1620961023607" duration="857000" />
+      <workItem from="1620967078899" duration="1932000" />
+      <workItem from="1621062966424" duration="919000" />
+      <workItem from="1621065355114" duration="8913000" />
+      <workItem from="1621139638699" duration="1270000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init">
       <created>1618070344131</created>
@@ -114,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619584458684</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="group">
+      <created>1619584628629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619584628629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
