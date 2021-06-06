@@ -6,6 +6,10 @@ import 'element-ui/lib/theme-chalk/index.css';
 // 全局配置elementui的dialog不能通过点击遮罩层关闭
 ElementUI.Dialog.props.closeOnClickModal.default = false
 Vue.use(ElementUI);
+
+import pdf from "vue-pdf"
+Vue.use(pdf)
+
 // 引入封装的router
 import router from '@/router/index'
 
