@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df270d5-f78e-4e6b-a537-de10fe1baee4" name="Default Changelist" comment="group: finish about group">
+    <list default="true" id="6df270d5-f78e-4e6b-a537-de10fe1baee4" name="Default Changelist" comment="change gin-vue-admin to Innovation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/login/login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619584628629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change gin-vue-admin to Innovation">
+      <created>1622988587167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622988587167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +206,8 @@
     <MESSAGE value="feat: init" />
     <MESSAGE value="init" />
     <MESSAGE value="group" />
-    <option name="LAST_COMMIT_MESSAGE" value="group" />
+    <MESSAGE value="change gin-vue-admin to Innovation" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gin-vue-admin to Innovation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
