@@ -108,7 +108,7 @@
                 ref="upload"
                 :action="`${path}/fileUploadAndDownload/uploadPdf`"
                 :before-upload="handleBeforeUpload"
-                :headers="{ 'x-token': token ,'groupId': groupId}"
+                :headers="{ 'X-Token': token ,'Group-Id': groupId}"
                 :on-error="handleError"
                 :on-success="handleSuc"
                 :on-exceed="handleExceed"
