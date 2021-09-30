@@ -25,14 +25,14 @@ module.exports = {
             // 把key的路径代理到target位置
             // detail: https://cli.vuejs.org/config/#devserver-proxy
             [process.env.VUE_APP_BASE_API]: { //需要代理的路径   例如 '/api'
-                target: `http://127.0.0.1:8888/`, //代理到 目标路径
+                target: `http://127.0.0.1:8889/`, //代理到 目标路径
                 changeOrigin: true,
                 pathRewrite: { // 修改路径数据
                     ['^' + process.env.VUE_APP_BASE_API]: '' // 举例 '^/api:""' 把路径中的/api字符串删除
                 }
             },
             'uploads': {
-                target: 'http://127.0.0.1:8888/',//设置你调用的接口域名和端口号 别忘了加http
+                target: 'http://127.0.0.1:8889/',//设置你调用的接口域名和端口号 别忘了加http
                 changeOrigin: true,    //这里true表示实现跨域
                 secure: false, // 如果是https接口，需要配置这个参数
                 pathRewrite: {
